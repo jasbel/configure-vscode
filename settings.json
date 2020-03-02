@@ -1,0 +1,42 @@
+{
+    /* EXTENSIONS
+        1 PRETTIER: formateado de codigo
+        2 scss formatter.- Formateo de codigo sass
+        3 htmltagwrap: alt+w redea codigo selecionas
+        4 color highlight: Cambiar las letras a colores 
+        5 auto rename tag: cambiar el nombre de la etiqueta inicio-final
+        6 bracket pair colorizer.- Cambia los ()[]{} a colores bonitos
+        7 css peek.- Modificar codigo css/sass desde HTML
+        8 vscode-icons.- iconos bonitos para carpetas y archivos
+        9 Material Icons .- Icons Beautiful ++
+        10 Scss Intellisense.- Ver Variables usadas, los valores y colores y demas
+
+    
+    */
+    //ver iconos con ...
+    "workbench.iconTheme": "material-icon-theme",
+    //ver puntos de espacio
+    "editor.renderWhitespace": "all",
+    //desactivar/activar minimap
+    "editor.minimap.enabled": false,
+    // formatear codigo al guardar -> ctrl+s
+    "editor.formatOnSave": true,
+    //desactivar/activar espacio de la derecha(sirve para el pintado)
+    "editor.glyphMargin": false,
+    //activado/desactivado ajuste de line, sin barra inferior
+    "editor.wordWrap": "on",
+    //formateado de HTML por defecto vscode
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    //formateado de sass por defecto scss-formater
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "explorer.confirmDragAndDrop": false,
+    // //perimitir escribir codigo sin restricciones desde el cmd integrado
+    // "terminal.integrated.shellArgs.windows": [
+    //     "-ExecutionPolicy",
+    //     "Bypass"
+    // ]
+}
